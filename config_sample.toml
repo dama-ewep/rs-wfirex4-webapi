@@ -1,0 +1,10 @@
+[log]
+log_file = "rs_wfirex4.log"
+log_level = "info"
+
+[app]
+service_port = 8080
+service_host = "0.0.0.0"
+
+[rs_wfirex4_api]
+host = "192.168.0.10"
