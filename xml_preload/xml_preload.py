@@ -32,7 +32,7 @@ def process_xml(xml_file):
         print(f"\t\"{name}\" => phf_map! {{")
     
         for button in item.findall('signal/button'):
-            button_name = button.find('buttonname').text
+            button_name = button.find('buttonname').text.replace("/", "|")
             code = button.find('code').text
             print(f"\t\t\"{button_name}\" => {format_byte_string(code)},")
         print("\t},")

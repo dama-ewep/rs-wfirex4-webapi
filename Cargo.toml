@@ -12,8 +12,6 @@ actix-web = "4.4.0"
 phf = { version = "0.11", features = ["macros"] }
 serde = "1.0.188"
 serde_json = "1.0.105"              # A JSON serialization file format
-byteorder = "1.4.3"                 # Library for reading/writing numbers in big-endian and little-endian.
 log = "0.4.20"                      # A lightweight logging facade for Rust
-env_logger = "0.10.0"               # A logging implementation for `log` which is configured via an environment variable.
 fern = "0.6.2"                      # Simple, efficient logging
 chrono = "0.4.30"                   # Date and time library for Rust
